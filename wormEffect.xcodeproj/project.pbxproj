@@ -12,8 +12,8 @@
 		A30D75B4225CA0690060AF72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30D75B2225CA0690060AF72 /* Main.storyboard */; };
 		A30D75B6225CA06A0060AF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30D75B5225CA06A0060AF72 /* Assets.xcassets */; };
 		A30D75B9225CA06A0060AF72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30D75B7225CA06A0060AF72 /* LaunchScreen.storyboard */; };
-		A3E9743A22AC3A1600FF5E61 /* Door.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3E9743922AC3A1600FF5E61 /* Door.wav */; };
-		A3E9744022AD4EC800FF5E61 /* surprise.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3E9743F22AD4EC800FF5E61 /* surprise.wav */; };
+		A38EA0F122C32AC5000096C3 /* Door.wav in Resources */ = {isa = PBXBuildFile; fileRef = A38EA0EF22C32AC5000096C3 /* Door.wav */; };
+		A38EA0F222C32AC5000096C3 /* surprise.wav in Resources */ = {isa = PBXBuildFile; fileRef = A38EA0F022C32AC5000096C3 /* surprise.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		A30D75B5225CA06A0060AF72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30D75B8225CA06A0060AF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A30D75BA225CA06A0060AF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3E9743922AC3A1600FF5E61 /* Door.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Door.wav; path = ../../../Door.wav; sourceTree = "<group>"; };
-		A3E9743F22AD4EC800FF5E61 /* surprise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = surprise.wav; path = ../../../surprise.wav; sourceTree = "<group>"; };
+		A38EA0EF22C32AC5000096C3 /* Door.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Door.wav; path = ../../Door.wav; sourceTree = "<group>"; };
+		A38EA0F022C32AC5000096C3 /* surprise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = surprise.wav; path = ../../surprise.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,8 @@
 		A3E9743622A274F700FF5E61 /* sound File */ = {
 			isa = PBXGroup;
 			children = (
-				A3E9743922AC3A1600FF5E61 /* Door.wav */,
-				A3E9743F22AD4EC800FF5E61 /* surprise.wav */,
+				A38EA0EF22C32AC5000096C3 /* Door.wav */,
+				A38EA0F022C32AC5000096C3 /* surprise.wav */,
 			);
 			path = "sound File";
 			sourceTree = "<group>";
@@ -136,11 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38EA0F122C32AC5000096C3 /* Door.wav in Resources */,
 				A30D75B9225CA06A0060AF72 /* LaunchScreen.storyboard in Resources */,
-				A3E9743A22AC3A1600FF5E61 /* Door.wav in Resources */,
 				A30D75B6225CA06A0060AF72 /* Assets.xcassets in Resources */,
-				A3E9744022AD4EC800FF5E61 /* surprise.wav in Resources */,
 				A30D75B4225CA0690060AF72 /* Main.storyboard in Resources */,
+				A38EA0F222C32AC5000096C3 /* surprise.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
